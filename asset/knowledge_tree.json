@@ -1,0 +1,200 @@
+{
+ "version": 1,
+ "skill": "python-expert",
+ "root": "Python 专家知识树（九叶·不可再拓扑时停止）",
+ "leaves": [
+  {
+   "id": "style-typing",
+   "title": "风格与类型标注",
+   "authority": "PEP8 / PEP484-604 / mypy strict",
+   "keywords": [
+    "pep8",
+    "lint",
+    "ruff",
+    "black",
+    "format",
+    "typing",
+    "mypy",
+    "annotat",
+    "docstring",
+    "风格",
+    "类型",
+    "命名"
+   ],
+   "knowledge": "knowledge/style-typing.md",
+   "checklist": "checklists/style-typing.md"
+  },
+  {
+   "id": "data-structures",
+   "title": "数据结构选型",
+   "authority": "CPython complexity table / collections / dataclasses",
+   "keywords": [
+    "list",
+    "dict",
+    "set",
+    "tuple",
+    "deque",
+    "heapq",
+    "dataclass",
+    "namedtuple",
+    "slots",
+    "lru",
+    "容器",
+    "结构",
+    "选型"
+   ],
+   "knowledge": "knowledge/data-structures.md",
+   "checklist": "checklists/data-structures.md"
+  },
+  {
+   "id": "algorithms",
+   "title": "算法与复杂度",
+   "authority": "Big-O / bisect / itertools / heapq",
+   "keywords": [
+    "algorithm",
+    "big-o",
+    "on2",
+    "sort",
+    "search",
+    "bisect",
+    "recursion",
+    "dp",
+    "graph",
+    "复杂度",
+    "嵌套"
+   ],
+   "knowledge": "knowledge/algorithms.md",
+   "checklist": "checklists/algorithms.md"
+  },
+  {
+   "id": "concurrency-async",
+   "title": "并发与异步",
+   "authority": "threading / multiprocessing / asyncio / GIL 边界",
+   "keywords": [
+    "thread",
+    "multiprocessing",
+    "asyncio",
+    "async ",
+    "await",
+    "coroutine",
+    "gil",
+    "lock",
+    "queue",
+    "pool",
+    "concurrent",
+    "race",
+    "并发",
+    "异步",
+    "死锁"
+   ],
+   "knowledge": "knowledge/concurrency-async.md",
+   "checklist": "checklists/concurrency-async.md"
+  },
+  {
+   "id": "errors-logging",
+   "title": "异常与日志",
+   "authority": "PEP3134 / logging dictConfig / structlog",
+   "keywords": [
+    "exception",
+    "except",
+    "raise",
+    "traceback",
+    "logging",
+    "logger",
+    "structlog",
+    "异常",
+    "报错",
+    "日志",
+    "堆栈"
+   ],
+   "knowledge": "knowledge/errors-logging.md",
+   "checklist": "checklists/errors-logging.md"
+  },
+  {
+   "id": "testing",
+   "title": "测试与覆盖率",
+   "authority": "pytest / coverage.py / hypothesis",
+   "keywords": [
+    "pytest",
+    "fixture",
+    "mock",
+    "monkeypatch",
+    "parametrize",
+    "coverage",
+    "hypothesis",
+    "测试",
+    "夹具",
+    "覆盖率",
+    "断言"
+   ],
+   "knowledge": "knowledge/testing.md",
+   "checklist": "checklists/testing.md"
+  },
+  {
+   "id": "packaging-deps",
+   "title": "依赖与打包",
+   "authority": "PEP517/518/621 / pyproject / venv / uv / poetry",
+   "keywords": [
+    "pyproject",
+    "setup.py",
+    "requirements",
+    "venv",
+    "pip ",
+    "uv",
+    "poetry",
+    "pdm",
+    "wheel",
+    "sdist",
+    "打包",
+    "依赖",
+    "虚拟环境"
+   ],
+   "knowledge": "knowledge/packaging-deps.md",
+   "checklist": "checklists/packaging-deps.md"
+  },
+  {
+   "id": "performance",
+   "title": "性能剖析与优化",
+   "authority": "cProfile / timeit / tracemalloc / C 扩展",
+   "keywords": [
+    "slow",
+    "performance",
+    "profile",
+    "cprofile",
+    "timeit",
+    "optimize",
+    "bottleneck",
+    "cython",
+    "numpy",
+    "性能",
+    "优化",
+    "内存"
+   ],
+   "knowledge": "knowledge/performance.md",
+   "checklist": "checklists/performance.md"
+  },
+  {
+   "id": "security-antipattern",
+   "title": "安全与反模式",
+   "authority": "OWASP / bandit 规则族 / 官方文档告警",
+   "keywords": [
+    "eval",
+    "exec",
+    "pickle",
+    "yaml.load",
+    "shell=True",
+    "subprocess",
+    "path",
+    "injection",
+    "assert ",
+    "mutable default",
+    "bare except",
+    "安全",
+    "注入",
+    "反模式"
+   ],
+   "knowledge": "knowledge/security-antipattern.md",
+   "checklist": "checklists/security-antipattern.md"
+  }
+ ]
+}
