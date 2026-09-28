@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 0.1.1
+
+迭代补全（Skill_Generator 修改路径）：浏览器学习横切节点 + file_ops 薄技能依赖 + 书目联网确证。
+
+- 新增 branch/流程/浏览器学习/：不明白的语法/库/性能/工程实践强制先检索学习并给出出处再作答。
+- 新增 resistance/浏览器学习约束/：先学后答、出处须确证、禁止臆造 URL、缓存不入 skill 目录。
+- 新增 references/参考书目/：12 项候选书目确证结果（8 项 [联网] 带可达 URL、4 项 [本地] 未确证）。
+- 新增 scripts/check_links.py：悬空链接校验 + [联网]/[本地] 计数自检（--strict-url）。
+- 变更 dependence/dependence.md：追加 `file_ops | skill | local:skill_manage_system`（ff_lite.py
+  search/fetch，须 :grant network；只传意图+参数、不内嵌正文）；code-guidelines / pavedpath-code
+  标 skill|local，python / git 标 software|system。
+- 变更 SKILL.md：标注浏览器学习为横切触发节点，红线补「出处未经确证不得标 [联网]」（仍 50 行）。
+- 变更 流程.md / branch.md / resistance.md / 知识树.md：接入新节点与书目索引。
+- 备注：版本号 0.1.1 按调用方指定（上一条 1.0.0 为首次生成误标，后续统一 0.1.x 序列）。
+- 备注：单英文词与 ≥4 词英文书名会被切成词典页；改「中文书名+出版社」或 site:book.douban.com
+  限定后可确证，境外源 fetch 报 WinError 10060 故不作确证源。
+
 ## 1.0.0
 
 首次生成（Skill_Generator 创建路径）。

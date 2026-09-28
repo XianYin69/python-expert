@@ -25,22 +25,23 @@ metadata:
 
 初始化 → 问题解析 → 领域定位 → 知识检索 → 取证探查 → 专家判断 → 评审清单 → 重构建议 → 输出交付 → 收尾 → 完成
 
+横切节点 [浏览器学习](branch/流程/浏览器学习/浏览器学习.md)：任一步遇不明白的语法/库/性能/工程实践，强制先派 `file_ops` 检索学习并给出出处再作答。
+
 ## 可用工具（scripts/）
 
-classify_topic · knowledge_index · review_checklist · env_probe · style_probe · security_scan ·
-test_probe · perf_probe · concurrency_probe · complexity_audit · packaging_probe · template_gen ·
-advice_compose
+classify_topic · knowledge_index · review_checklist · env_probe · style_probe · security_scan · test_probe ·
+perf_probe · concurrency_probe · complexity_audit · packaging_probe · template_gen · advice_compose · check_links
 
 ## 知识树（九叶·不可再拓扑）
 
-style-typing · data-structures · algorithms · concurrency-async · errors-logging · testing ·
-packaging-deps · performance · security-antipattern
-索引 [asset/knowledge_tree.json](asset/knowledge_tree.json)，细则 [references/知识树/](references/知识树/知识树.md)
+style-typing · data-structures · algorithms · concurrency-async · errors-logging · testing · packaging-deps · performance · security-antipattern
+索引 [asset/knowledge_tree.json](asset/knowledge_tree.json) · 细则 [references/知识树/](references/知识树/知识树.md) · 书目 [references/参考书目/](references/参考书目/参考书目.md)
 
 ## 红线
 
 - 不得跳过初始化与取证直接给结论；不得伪造运行结果或加速倍数。
 - 不得修改调用方代码或其他技能目录；不得把偏好标为阻塞项。
+- 不明白项不得凭记忆作答；出处未经 `file_ops` 确证不得标 [联网]，严禁臆造 URL。
 - 悬空链接必须为 0；所有 .md / 脚本 ≤ 50 行；缓存文件不得写入 skill 目录。
 - 交付必须含「边界」与「未覆盖」两段，缺项即判不合格。
 
