@@ -30,6 +30,8 @@ python scripts/advice_compose.py --topic concurrency-async --verdict tmp/verdict
 | asset/checklists/ | 九份评审清单（BLOCK 标记阻塞项） |
 | asset/templates/ | pyproject / conftest / protocol / worker_pool / async_gather 脚手架 |
 | references/知识树/ | 领域拓扑与出处 |
+| references/参考书目/ | 书目联网确证（[联网]/[本地]） |
+| branch/流程/浏览器学习/ | 横切节点：先检索学习后作答 |
 | resistance/ | 约束与五大机制兜底 |
 | scripts/ | 只读取证与产出脚本（标准库实现） |
 | dependence/ | 依赖声明（SMS 安装时同检同净化） |
