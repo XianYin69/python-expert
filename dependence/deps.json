@@ -1,0 +1,224 @@
+{
+  "dependencies": [
+    {
+      "name": "python",
+      "type": "software",
+      "source_url": "https://github.com/python/cpython",
+      "license": "PSF-2.0",
+      "version": "system",
+      "install": "system",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "git",
+      "type": "software",
+      "source_url": "https://github.com/git/git",
+      "license": "GPL-2.0",
+      "version": "system",
+      "install": "system",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "ruff",
+      "type": "software",
+      "source_url": "https://github.com/astral-sh/ruff",
+      "license": "MIT",
+      "version": "0.16.9",
+      "install": "pip install ruff",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "mypy",
+      "type": "software",
+      "source_url": "https://github.com/python/mypy",
+      "license": "MIT",
+      "version": "2.3.1",
+      "install": "pip install mypy",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "pytest",
+      "type": "software",
+      "source_url": "https://github.com/pytest-dev/pytest",
+      "license": "MIT",
+      "version": "9.1.1",
+      "install": "pip install pytest",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "pytest-cov",
+      "type": "software",
+      "source_url": "https://github.com/pytest-dev/pytest-cov",
+      "license": "MIT",
+      "version": "7.1.0",
+      "install": "pip install pytest-cov",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "pyright",
+      "type": "software",
+      "source_url": "https://github.com/microsoft/pyright",
+      "license": "MIT",
+      "version": "1.1.414",
+      "install": "pip install pyright",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "uv",
+      "type": "software",
+      "source_url": "https://github.com/astral-sh/uv",
+      "license": "Apache-2.0",
+      "version": "0.12.20",
+      "install": "pip install uv",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "poetry",
+      "type": "software",
+      "source_url": "https://github.com/python-poetry/poetry",
+      "license": "MIT",
+      "version": "2.5.1",
+      "install": "pip install poetry",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "pip-tools",
+      "type": "software",
+      "source_url": "https://github.com/jazzband/pip-tools",
+      "license": "BSD-3-Clause",
+      "version": "7.6.1",
+      "install": "pip install pip-tools",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "numpy",
+      "type": "software",
+      "source_url": "https://github.com/numpy/numpy",
+      "license": "BSD-3-Clause",
+      "version": "2.5.3",
+      "install": "pip install numpy",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "Cython",
+      "type": "software",
+      "source_url": "https://github.com/cython/cython",
+      "license": "Apache-2.0",
+      "version": "latest",
+      "install": "见 source_url",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "memray",
+      "type": "software",
+      "source_url": "https://github.com/bloomberg/memray",
+      "license": "Apache-2.0",
+      "version": "1.20.0",
+      "install": "pip install memray",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "py-spy",
+      "type": "software",
+      "source_url": "https://github.com/benfred/py-spy",
+      "license": "MIT",
+      "version": "0.4.2",
+      "install": "pip install py-spy",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "hypothesis",
+      "type": "software",
+      "source_url": "https://github.com/HypothesisWorks/hypothesis",
+      "license": "MPL-2.0",
+      "version": "6.168.3",
+      "install": "pip install hypothesis",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "structlog",
+      "type": "software",
+      "source_url": "https://github.com/hynek/structlog",
+      "license": "MIT/Apache-2.0",
+      "version": "26.1.0",
+      "install": "pip install structlog",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "bandit",
+      "type": "software",
+      "source_url": "https://github.com/pycqa/bandit",
+      "license": "Apache-2.0",
+      "version": "1.9.4",
+      "install": "pip install bandit",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "file_ops",
+      "type": "skill",
+      "source_url": "local://skill_manage_system",
+      "license": "unknown",
+      "version": "local",
+      "install": "sms:install skill_manage_system",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "general-programming",
+      "type": "skill",
+      "source_url": "local://general-programming",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install general-programming",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "code-guidelines",
+      "type": "skill",
+      "source_url": "local://code-guidelines",
+      "license": "unknown",
+      "version": "local",
+      "install": "sms:install code-guidelines",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "pavedpath-code",
+      "type": "skill",
+      "source_url": "local://pavedpath-code",
+      "license": "MIT",
+      "version": "local",
+      "install": "sms:install pavedpath-code",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    },
+    {
+      "name": "skill_manage_system",
+      "type": "skill",
+      "source_url": "local://skill_manage_system",
+      "license": "unknown",
+      "version": "local",
+      "install": "sms:install skill_manage_system",
+      "checked_at": "2026-09-29T23:46",
+      "source_url_status": "verified"
+    }
+  ]
+}
