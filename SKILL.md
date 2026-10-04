@@ -1,5 +1,6 @@
 ---
 name: python-expert
+version: 0.1.1
 description: >
   Python 资深专家顾问：风格与类型标注（PEP8/typing/mypy）、数据结构与算法选型、并发与异步
   （threading/multiprocessing/asyncio/GIL 边界）、异常与日志、测试（pytest/覆盖率/夹具）、
